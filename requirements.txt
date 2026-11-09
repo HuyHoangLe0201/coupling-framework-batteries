@@ -1,0 +1,11 @@
+# Python 3.12+ is what the paper was built and checked with.
+# Pinned loosely: the code uses no exotic APIs, but the numeric results in the
+# SI were produced with these versions and should be reproducible with them.
+
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+openpyxl>=3.1,<4
+PyMuPDF>=1.24          # imported as `fitz`; used by the SI builder and the PDF gates
+pandas>=2.1,<3         # only by the Attia algorithm reference code
+scikit-learn>=1.4,<2   # same
+fontTools>=4.50        # glyph-coverage check in figure-spec-check.py

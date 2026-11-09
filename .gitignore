@@ -1,0 +1,48 @@
+# Build and run artefacts -----------------------------------------------------
+*.aux
+*.log
+*.out
+*.spl
+*.blg
+*.bbl
+*.pag
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+__pycache__/
+*.py[cod]
+
+# Generated results (reproducible: re-run the script) -------------------------
+code/**/margin_sweep_results.json
+code/**/worked_example_results.json
+code/**/exponent_results.json
+code/**/framework_results.json
+code/**/results.json
+
+# Third-party data: not redistributed (see code/fade-application/raw/README-DATA.md)
+code/fade-application/raw/*.xlsx
+code/fade-application/raw/*.xls
+code/fade-application/raw/*.mat
+
+# Third-party PDFs of cited papers -------------------------------------------
+code/**/pdfs/
+*.pdf.bak
+
+# Package template and fonts: belong to Wiley, not republished ----------------
+WileyNJDv5_Template.zip
+manuscript/wiley-njd/Fonts/
+manuscript/wiley-njd/NJDv5_Authorguideline-document/
+NJD-journals.xlsx
+
+# Editor / OS ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local scratch ---------------------------------------------------------------
+_s.py
+_*.tmp
