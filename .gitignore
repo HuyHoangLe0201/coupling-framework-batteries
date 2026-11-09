@@ -49,3 +49,8 @@ _*.tmp
 
 # glyph-coverage scratch written by figure-spec-check.py
 figures/_glyphcheck/
+
+# Built PDFs: reproducible from source, byte metadata drifts on every build.
+# The submitted copies live in the submission package, not here.
+manuscript/wiley-njd/batt-main.pdf
+si/SI.pdf
