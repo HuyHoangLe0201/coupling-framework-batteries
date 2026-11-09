@@ -124,7 +124,7 @@ The authors declare no conflict of interest.
 
 ## Data availability statement
 
-This Perspective reports no new experimental data. The derivations that underpin every number quoted in the text, and the Supporting Information display items, are provided as Supporting Information. The reduced model is specified in Section S1 of the Supporting Information in sufficient detail to be re-implemented from the stated equations and parameters.
+This Perspective reports no new experimental data. The derivations that underpin every number quoted in the text, and the Supporting Information display items, are provided as Supporting Information. The reduced model is specified in Section S1 of the Supporting Information in sufficient detail to be re-implemented from the stated equations and parameters. The model implementation, the scripts that regenerate both figures and every table, and the numerical audit scripts that re-derive the order-of-magnitude estimates quoted here are openly available at https://github.com/HuyHoangLe0201/coupling-framework-batteries
 
 ## Acknowledgements and funding
 

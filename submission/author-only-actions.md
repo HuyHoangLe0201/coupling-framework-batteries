@@ -125,3 +125,28 @@ rendering to **47 pages / 40 tables / 38 equations**. **Nothing left to do here.
 **If you have a day:** do §5 and finish §3. That is a submittable package. **§6 no longer contains any open task at all** — the figure and both TOC renders are built, and the SI is now assembled into `SI-combined.md`/`.docx`; §6.1, §6.2 and §6.3 are all closed.
 
 **What you should not do:** re-derive anything, and **do not redraw the figures.** The numbers are checked, the references are verified, the counts are counted, the artwork is built and machine-verified, and `check_checklist.py` will tell you if any of that stops being true. What it cannot tell you is whether the figure *looks* right — that is §5.1, and it is the one item on this page that no amount of computation can close. **Similarly, it cannot tell you whether the authors approve: rows 2.5, 7.5 and 8.4 are open because an approval is not a file, and no amount of checking will turn a name into a consent.**
+
+---
+
+## Resolved 2026-11-09 — repository created
+
+**Blocker #4 (repository) is now partially closed.** The code is public at
+`https://github.com/HuyHoangLe0201/coupling-framework-batteries` (187 files,
+branch `main`). The URL is carried in:
+
+- the manuscript's Data Availability Statement,
+- the cover letter (final paragraph),
+- `data-availability-statement.md`.
+
+**What remains is the DOI, not the repository.** A GitHub URL is not a citable
+identifier: it breaks if the account or the repository is renamed, and the
+journal's wording asks for a *community-trusted repository*. To close it fully:
+
+1. Tag a release in GitHub (`v1.0.0`).
+2. Connect the repository to Zenodo (Zenodo -> GitHub -> enable the repo).
+3. Publish the release; Zenodo mints a DOI.
+4. Insert that DOI into `data-availability-statement.md`, the manuscript's Data
+   Availability Statement, and the cover letter.
+
+**Do not paste a placeholder DOI in the meantime.** The project's reference
+auditor extracts anything DOI-shaped and would report it as a 404.

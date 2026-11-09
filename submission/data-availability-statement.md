@@ -1,6 +1,6 @@
 # Data Availability Statement
 
-**Status:** DRAFT — one DOI must be minted before this can be final. `[TO BE FILLED BY AUTHORS]` marks it. **The code is NOT yet deposited in a public repository;** everything below describes what would be deposited and where it lives on disk.
+**Status:** DRAFT — **the repository now exists and is public** (github.com/HuyHoangLe0201/coupling-framework-batteries, created 2026-11-09); the manuscript and the cover letter both carry the URL. **One item remains: a citable DOI.** A GitHub URL is reachable but is not an identifier a reader can cite after the account or the repository name changes, so the journal's "community-trusted repository" wording is only fully met once a Zenodo/Figshare DOI is minted from a tagged release. `[TO BE FILLED BY AUTHORS — the DOI]`.
 **Requirement:** **MANDATORY** per the Notice to Authors (09/26): a data availability statement is required; it should link to a community-trusted repository, and scripts should be archived publicly "whenever possible" (`00-coordination/word-budget-contract.md` §6; `02-journal-fit/batteries-and-supercaps-scope.md` §3.2b).
 **Prepared:** 2026-11-04 · **Revised:** 2026-11-04 (file list rebuilt for the one-figure restructure: `figure1_draw.py` and `figure1_draft.*` removed, which never existed under those names; the current generators `figmech.py`, `figtoc.py`, `figstyle.py`, `fig3_data.py`, `figaudit.py` added). · **Owner:** `submission-packager`
 
@@ -10,8 +10,8 @@
 
 | Element | Status | Owner |
 |---|---|---|
-| A public repository deposit of the model code and figure scripts | **❌ NOT DONE** — files exist locally only | Authors |
-| A repository DOI for that deposit | **❌ NOT MINTED** — placeholder below | Authors |
+| A public repository deposit of the model code and figure scripts | **✅ DONE 2026-11-09** — 187 files at github.com/HuyHoangLe0201/coupling-framework-batteries, verified by cloning it and running all 11 build and gate steps (all exit 0) | Authors |
+| A repository DOI for that deposit | **❌ NOT MINTED** — mint from a tagged release | Authors |
 | A statement placed in the manuscript at the required position | **✅ drafted here**, needs pasting in | Manuscript writer |
 | Confirmation of *where* in the manuscript the journal wants it | **⚠️ [UNVERIFIED]** — the Notice to Authors requires the statement but the dossier does not record its required position. Convention at Wiley-VCH journals is a separate section before the Acknowledgements / after the Conclusions. `[TO BE FILLED BY AUTHORS — confirm in the template]` | Authors |
 

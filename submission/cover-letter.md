@@ -18,6 +18,8 @@ Per the Notice to Authors (09/26), a cover letter must: **outline the relevance 
 
 Dear Editors,
 
+*Batteries & Supercaps*
+
 We submit for consideration in *Batteries & Supercaps* a Perspective entitled **"From Loss Accounting to Feedback Loops: A Coupling Framework for Electrochemical Aging in Lithium-Based Batteries."**
 
 The problem we address is one your readers meet constantly. A cell that dies at cycle 700 usually has several degradation mechanisms operating at once, and the literature describing each is excellent — but the descriptions cannot be composed. An interphase study reports coulombic efficiency, a fracture study reports crack density, a cathode study reports parts-per-million dissolved manganese; none of these can be assembled into an answer to why a particular cell failed. We argue that the obstruction is structural rather than technical, and supply the missing composition rule in three steps: a three-channel loss ledger used as a coordinate system in which each mechanism has a characteristic *trajectory* rather than a magnitude; a source/sink topology in which dissolution and fracture manufacture the reactivity that interphase growth and plating consume, collapsing four mechanisms onto two state variables and four feedback loops; and the identification of the capacity-fade knee with that system's stability boundary, which makes the cycle at which the knee arrives a design variable, set by the margin the cell runs against rather than by a single tabulated property. The Perspective closes with a loop-based diagnostic decision tree and six predictions, each carrying an explicit refutation condition, preceded by a short glossary for readers outside the field.
@@ -44,7 +46,7 @@ These names are offered as suggestions only. We would welcome the editor's own c
 
 `[TO BE FILLED BY AUTHORS — related-work disclosure: state that no part of this work is published or under consideration elsewhere, and whether a preprint exists (with DOI if so). The dossier records preprint status as unknown, so this file cannot assert either way.]`
 
-The manuscript reports no new experimental data. The reduced model in the Supporting Information is a scaling argument, not a validated cell model, and we say so explicitly in both the main text and the SI.
+The manuscript reports no new experimental data. The reduced model in the Supporting Information is a scaling argument, not a validated cell model, and we say so explicitly in both the main text and the SI. The model implementation, the figure and table generators, and the numerical audit scripts that re-derive the manuscript's order-of-magnitude estimates are openly available at https://github.com/HuyHoangLe0201/coupling-framework-batteries
 
 Yours sincerely,
 
