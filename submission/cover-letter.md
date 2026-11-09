@@ -16,46 +16,35 @@ Per the Notice to Authors (09/26), a cover letter must: **outline the relevance 
 
 ## 1. The letter (copy from here into the submission system)
 
-Dear Editors,
+Dear Editor-in-Chief,
 
-*Batteries & Supercaps*
+We are pleased to submit our manuscript entitled **“From Loss Accounting to Feedback Loops: A Coupling Framework for Electrochemical Aging in Lithium-Based Batteries”** for consideration as a Perspective in *Batteries & Supercaps*.
 
-We submit for consideration in *Batteries & Supercaps* a Perspective entitled **"From Loss Accounting to Feedback Loops: A Coupling Framework for Electrochemical Aging in Lithium-Based Batteries."**
+Capacity fade in lithium-based cells is reported mechanism by mechanism, and each report is excellent, yet the reports cannot be composed: an interphase study quotes coulombic efficiency, a fracture study quotes crack density, a cathode study quotes parts-per-million dissolved manganese, and none of these can be assembled into an answer to why a particular cell failed. We argue the obstruction is structural rather than technical, and supply the missing composition rule. The Perspective makes three contributions: (1) a three-channel loss ledger used as a coordinate system in which each mechanism has a characteristic trajectory rather than a magnitude; (2) a source/sink topology in which dissolution and fracture manufacture the reactivity that interphase growth and plating consume, collapsing four mechanisms onto two state variables and four feedback loops; and (3) the identification of the capacity-fade knee with that system's stability boundary, which makes the cycle at which the knee arrives a design variable, set by the margin the cell runs against rather than by a single tabulated property. The argument closes with a loop-based diagnostic decision tree, six falsifiable predictions each carrying an explicit refutation condition, and a minimum reporting set.
 
-The problem we address is one your readers meet constantly. A cell that dies at cycle 700 usually has several degradation mechanisms operating at once, and the literature describing each is excellent — but the descriptions cannot be composed. An interphase study reports coulombic efficiency, a fracture study reports crack density, a cathode study reports parts-per-million dissolved manganese; none of these can be assembled into an answer to why a particular cell failed. We argue that the obstruction is structural rather than technical, and supply the missing composition rule in three steps: a three-channel loss ledger used as a coordinate system in which each mechanism has a characteristic *trajectory* rather than a magnitude; a source/sink topology in which dissolution and fracture manufacture the reactivity that interphase growth and plating consume, collapsing four mechanisms onto two state variables and four feedback loops; and the identification of the capacity-fade knee with that system's stability boundary, which makes the cycle at which the knee arrives a design variable, set by the margin the cell runs against rather than by a single tabulated property. The Perspective closes with a loop-based diagnostic decision tree and six predictions, each carrying an explicit refutation condition, preceded by a short glossary for readers outside the field.
+We believe the work is well suited to *Batteries & Supercaps* because the journal has published the ingredients of this problem — path-dependent aging (Raj et al., 10.1002/batt.202000160), operando plating (Klein et al., 10.1002/batt.202400070), particle fracture (Wheatcroft et al., 10.1002/batt.202300032) — while the coupling between those mechanisms has not been given a common quantitative framework. To be precise about the novelty: the individual couplings have been measured (e.g. the parasitic-current amplification by dissolved Mn²⁺ is quantified in Tornheim et al., 10.1149/1945-7111/ae4540), but no scaling law for the magnitude of that amplification across chemistries has been established, and that is the contribution this Perspective offers. Perspectives are rare in this journal and none addresses degradation mechanisms; we hope this fills that gap.
 
-We believe the work fits the journal's stated interests in pure and applied battery research, battery electrochemistry, and electrode materials, and in the modeling and applied studies its scope names. It is particularly suited to *Batteries & Supercaps* because the journal has published the ingredients of this problem — path-dependent aging (Raj et al., `10.1002/batt.202000160`), operando plating (Klein et al., `10.1002/batt.202400070`), particle fracture (Wheatcroft et al., `10.1002/batt.202300032`) — while the coupling between those mechanisms has not been given a common quantitative framework. To be precise about the novelty: the individual couplings have been *measured* (e.g. the parasitic-current amplification by dissolved Mn²⁺ is quantified in Tornheim et al., `10.1149/1945-7111/ae4540`), but **no scaling law for the magnitude of that amplification across chemistries has been established** — which is the contribution this Perspective offers. Perspectives are rare in this journal, and none addresses degradation mechanisms; we hope this fills that gap.
+The manuscript reports no new experimental data. The reduced model in the Supporting Information is a scaling argument, not a validated cell model, and we say so explicitly in both the main text and the SI. Its implementation, the figure and table generators, and the numerical audit scripts that re-derive the manuscript's order-of-magnitude estimates are openly available at https://github.com/HuyHoangLe0201/coupling-framework-batteries
 
-We suggest the following impartial reviewers, none of whom are collaborators of the authors `[TO BE CONFIRMED BY AUTHORS — see §3]`:
+We suggest the following impartial reviewers, none of whom are collaborators of the authors: David A. Howey, Department of Engineering Science, University of Oxford, UK (10.1002/batt.202000160); Clare P. Grey, Department of Chemistry, University of Cambridge, UK (10.1021/jacs.0c06363); Bryan D. McCloskey, Department of Chemical and Biomolecular Engineering, University of California, Berkeley, and Lawrence Berkeley National Laboratory, USA (10.1021/acsenergylett.0c00859); Beverley J. Inkson, Department of Materials Science and Engineering, University of Sheffield, UK (10.1002/batt.202300032); Reza Younesi, Department of Chemistry, Ångström Laboratory, Uppsala University, Sweden (10.1039/d3ra02535g); Birger Horstmann, Institute of Engineering Thermodynamics, German Aerospace Center (DLR), and Helmholtz Institute Ulm, Germany (10.1002/cssc.202000867).
 
-**David A. Howey**, Department of Engineering Science, University of Oxford, UK — path-dependent degradation and battery diagnostics (`10.1002/batt.202000160`).
+One suggested reviewer, D. A. Howey, is a co-author of the review we engage most directly (Attia et al., J. Electrochem. Soc. 2022, 169, 060517). We suggest him because he is best placed to judge whether our differentiation from that work is substantive; we have no relationship with him. We declare no opposed reviewers, and we would welcome the editor's own choice of reviewers.
 
-**Clare P. Grey**, Department of Chemistry, University of Cambridge, UK — operando NMR and interphase chemistry (`10.1021/jacs.0c06363`).
-
-**Bryan D. McCloskey**, Department of Chemical and Biomolecular Engineering, University of California, Berkeley, and Lawrence Berkeley National Laboratory, USA — quantification of inactive lithium and plating onset (`10.1021/acsenergylett.0c00859`).
-
-**Beverley J. Inkson**, Department of Materials Science and Engineering, University of Sheffield, UK — in situ fracture of NMC811 secondary particles (`10.1002/batt.202300032`).
-
-**Reza Younesi**, Department of Chemistry, Ångström Laboratory, Uppsala University, Sweden — transition-metal dissolution and HF chemistry (`10.1039/d3ra02535g`).
-
-**Birger Horstmann**, Institute of Engineering Thermodynamics, German Aerospace Center (DLR), and Helmholtz Institute Ulm, Germany — theory of SEI growth regimes (`10.1002/cssc.202000867`).
-
-We wish to disclose that one suggested reviewer, D. A. Howey, is a co-author of the review we engage most directly (Attia et al., *J. Electrochem. Soc.* 2022, **169**, 060517). We suggest him because he is best placed to judge whether our differentiation from that work is substantive; we have no relationship with him. We declare no opposed reviewers. `[TO BE CONFIRMED BY AUTHORS — see §3]`
-
-These names are offered as suggestions only. We would welcome the editor's own choice of reviewers, would take no exception to any of the six being replaced or declined, and ask only that the handling editor judge impartiality on the record rather than on our list.
-
-`[TO BE FILLED BY AUTHORS — related-work disclosure: state that no part of this work is published or under consideration elsewhere, and whether a preprint exists (with DOI if so). The dossier records preprint status as unknown, so this file cannot assert either way.]`
-
-The manuscript reports no new experimental data. The reduced model in the Supporting Information is a scaling argument, not a validated cell model, and we say so explicitly in both the main text and the SI. The model implementation, the figure and table generators, and the numerical audit scripts that re-derive the manuscript's order-of-magnitude estimates are openly available at https://github.com/HuyHoangLe0201/coupling-framework-batteries
+This manuscript is original, has not been published previously, and is not under consideration for publication elsewhere. All authors have approved the submission and agree with its content. ​`[TO BE FILLED BY AUTHORS — if a preprint exists, disclose it here with its DOI; the dossier records preprint status as unknown, so this file cannot assert either way.]`
 
 Yours sincerely,
 
-**Kim-Anh Nguyen** *(corresponding author)*
-Faculty of Electrical Engineering, University of Science and Technology, The University of Danang, Da Nang 550000, Vietnam
-`nkanh@dut.udn.vn`
-`[SIGNATURE — to be added by the corresponding author; a name in a file is not a signature]`
+**Kim-Anh Nguyen, Ph.D.**
 
-*On behalf of all authors* — Huy Hoang Le, R&D Department, PowerMore Ltd.; Kim-Anh Nguyen, Faculty of Electrical Engineering, UST–The University of Danang
+On behalf of the authors
+
+Faculty of Electrical Engineering
+
+The University of Danang - University of Science and Technology
+
+Da Nang 550000, Vietnam
+
+E-mail: nkanh@dut.udn.vn
 
 ---
 
