@@ -1,0 +1,26 @@
+# Keep text files LF in the repository regardless of the platform that writes
+# them. The build reads these files byte-wise and a stray CRLF changes the word
+# counters (a CR before LF is not a separator they expect).
+*.py            text eol=lf
+*.md            text eol=lf
+*.txt           text eol=lf
+*.tex           text eol=lf
+*.bib           text eol=lf
+*.bst           text eol=lf
+*.cls           text eol=lf
+*.sty           text eol=lf
+*.STY           text eol=lf
+*.csv           text eol=lf
+*.json          text eol=lf
+*.gitignore     text eol=lf
+*.gitattributes text eol=lf
+LICENSE         text eol=lf
+
+# Binary assets: never normalise.
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.eps   binary
+*.xlsx  binary
+*.mat   binary
+*.zip   binary

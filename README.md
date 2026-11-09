@@ -43,7 +43,7 @@ fade curves gave an **inconclusive** result (SI S1.13).
 | `code/lit-audit/`, `code/methods-audit/` | Audits of the literature numbers and the derived quantities. Includes `references.bib` (162 entries). |
 | `code/coordination/` | Consistency checks between the paper's claims and its evidence. |
 | `manuscript/` | `manuscript.md` (authoritative prose) and the Wiley NJD LaTeX build. |
-| `si/` | Supporting Information: four markdown sources, the builder, and `SI.pdf` (47 pages). |
+| `si/` | Supporting Information: four markdown sources and the builder, which emits `SI.tex` and a 47-page `SI.pdf`. |
 | `figures/` | Mechanism figure and TOC graphic, with the scripts that draw them. |
 | `submission/` | Title page, cover letter, declarations, and the recomputing checklist gate. |
 
@@ -157,6 +157,10 @@ than a traceback.
   does not fail on their absence.
 - **Generated outputs** (`*.json` results, `*.aux`, `*.log`, `*.bbl`) — reproducible,
   so not versioned.
+- **Built PDFs** (`batt-main.pdf`, `SI.pdf`). They rebuild from source with
+  identical text; only the embedded PDF metadata differs per run, so tracking them
+  made every build dirty the tree. The copies actually submitted are archived with
+  the submission package.
 
 ---
 
