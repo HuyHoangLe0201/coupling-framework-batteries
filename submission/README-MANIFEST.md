@@ -15,7 +15,7 @@
 
 | # | File | Upload as | Notes |
 |---|---|---|---|
-| 1 | `01-manuscript/manuscript.pdf` | Main article (PDF) | 7 pages, 3,498 / 3,500 words |
+| 1 | `01-manuscript/manuscript.pdf` | Main article (PDF) | 7 pages, 3,499 / 3,500 words |
 | 2 | `01-manuscript/manuscript.md` | Main article (editable) | Optional; the PDF is the render |
 | 3 | `02-supporting-information/supporting-information.pdf` | Supporting Information | 47 pages, 40 tables, 38 equation environments |
 | 4 | `03-figures/figure-1-mechanism.pdf` | Figure 1 | Vector, final size |
@@ -33,13 +33,13 @@
 
 | Quantity | Value | Checked by |
 |---|---|---|
-| Counted words | **3,498** of 3,500 (slack +2) | `_count.py`, `_sync_check.py`, `check_checklist.py` — three independent counters agree |
-| Abstract | **191** words (cap 200) | same three |
+| Counted words | **3,499** of 3,500 (slack +1) | `_count.py`, `_sync_check.py`, `check_checklist.py` — three independent counters agree |
+| Abstract | **196** words (cap 200) | same three |
 | Display-item legends | **157** words (cap 160) | `_count.py` |
 | References | **46**, cited 1..46 contiguous, no sub-parts | `_layoutcheck.py` (EXPECTED_REFS = 46) |
 | Manuscript pages | **7** | PDF |
 | SI | **47 pages / 40 tables / 38 equation environments / 26,465 source words** | `build_si_tex.py` |
-| Prose / abstract / legends split | 3,150 + 191 + 157; 74 back-matter words excluded | `check_checklist.py` row 3.1 |
+| Prose / abstract / legends split | 3,146 + 196 + 157; 78 back-matter words excluded | `check_checklist.py` row 3.1 |
 
 ---
 
@@ -47,7 +47,7 @@
 
 Both deliverables were rebuilt from this package alone and compared against the shipped PDFs.
 
-- **Manuscript.** `05-latex-source/` builds with `pdflatex → bibtex → pdflatex × 2`. The rebuilt PDF is **text-identical** to `01-manuscript/manuscript.pdf` (37,560 characters, byte-for-byte after whitespace normalisation), 7 pages.
+- **Manuscript.** `05-latex-source/` builds with `pdflatex → bibtex → pdflatex × 2`. The rebuilt PDF is **text-identical** to `01-manuscript/manuscript.pdf` (37,532 characters, byte-for-byte after whitespace normalisation), 7 pages.
 - **SI.** `02-supporting-information/supporting-information.tex` is self-contained (no figures, no bibliography) and builds with `pdflatex × 2` to 47 pages.
 
 `05-latex-source/LETTERSP.STY` is required by `WileyNJDv5.cls`; TeX Live does not ship it. It must stay in the archive.

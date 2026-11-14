@@ -1,7 +1,7 @@
 # Cover Letter — *Batteries & Supercaps* Perspective
 
 **Status:** DRAFT — requires author completion and verification before sending. `[TO BE FILLED BY AUTHORS]` marks fields that cannot be invented.
-**Length:** **522 words of letter prose** plus a **6-line reviewer block** — **628 words in total** if the reviewer list is counted, which is normal for a cover letter with six suggestions and still fits one page if the reviewer block is set as a compact list. Counted by whitespace tokenisation on 2026-11-04, after the novelty-precision sentence and the reviewer-flexibility sentence were added.
+**Length:** **539 words of letter prose** plus a **98-word reviewer paragraph** — **666 words in total** if the reviewer paragraph is counted, which is normal for a cover letter with six suggestions. The layout follows the JESTCH template (Arial 12 pt, Letter, 1-inch margins); the letter runs to two pages because the reviewer paragraph and the repository URL together exceed what the template's five-paragraph sample carries. Counted by whitespace tokenisation on 2026-11-04, after the novelty-precision sentence and the reviewer-flexibility sentence were added.
 **Prepared:** 2026-11-04 · **Owner:** `submission-packager`
 
 ---
