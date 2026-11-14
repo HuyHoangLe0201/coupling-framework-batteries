@@ -146,6 +146,8 @@ out.append(r"""\documentclass[AMA,Times2COL]{WileyNJDv5}
 
 \raggedbottom
 
+\hypersetup{pdftitle={From Loss Accounting to Feedback Loops: A Coupling Framework for Electrochemical Aging in Lithium-Based Batteries}, pdfauthor={Huy Hoang Le; Kim-Anh Nguyen}, pdfsubject={Batteries and Supercaps Perspective}, pdfkeywords={coupling; degradation; feedback loops; knee; lithium-ion batteries}}
+
 \begin{document}
 
 \title{%s}

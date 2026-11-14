@@ -676,6 +676,19 @@ PREAMBLE = r"""\documentclass[11pt,a4paper]{article}
 \usepackage{longtable}
 \usepackage{microtype}
 
+% hyperref goes LAST among packages, and hidelinks keeps the printed page clean:
+% the SI is read on paper as often as on screen, and coloured link boxes on every
+% cross-reference would be noise.  It is here for the PDF metadata (a file with an
+% empty /Title and /Author is a file a reader cannot cite from a PDF library) and
+% for the internal links the cross-references already imply.
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={Supporting Information --- From Loss Accounting to Feedback Loops: A Coupling Framework for Electrochemical Aging in Lithium-Based Batteries},
+  pdfauthor={Huy Hoang Le; Kim-Anh Nguyen},
+  pdfsubject={Supporting Information to a Batteries and Supercaps Perspective},
+  pdfkeywords={coupling; degradation; feedback loops; knee; lithium-ion batteries; supporting information},
+}
+
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
 \renewcommand{\arraystretch}{1.15}

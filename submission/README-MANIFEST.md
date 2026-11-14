@@ -29,6 +29,46 @@
 
 ---
 
+## Every file in this package
+
+Not all of these are uploaded. This table exists so that a reader who opens the
+archive and finds a file they did not expect — especially `empty.eps` or
+`empty.pdf` — can see what it is and why it is there.
+
+| File | What it is | Upload? |
+|---|---|---|
+| `01-manuscript/manuscript.pdf` | The manuscript, 7 pages | **yes** |
+| `01-manuscript/manuscript.md` | The same text in markdown | optional |
+| `02-supporting-information/supporting-information.pdf` | SI, 47 pages | **yes** |
+| `02-supporting-information/supporting-information.tex` | SI LaTeX source, self-contained | only if asked |
+| `03-figures/figure-1-mechanism.pdf` | Figure 1, vector | **yes** |
+| `03-figures/figure-1-mechanism.png` | Figure 1, 300 dpi raster (systems that reject PDF graphics) | alternative |
+| `03-figures/toc-graphic-square.pdf` | TOC graphic, 5.5 × 5.0 cm | one of the two |
+| `03-figures/toc-graphic-banner.pdf` | TOC graphic, 11.5 × 2.5 cm | one of the two |
+| `04-submission-documents/cover-letter.md` | Cover letter text | paste into field |
+| `04-submission-documents/cover-letter.docx` | Cover letter, Word, JESTCH layout | alternative |
+| `04-submission-documents/title-page.md` | Title page + abstract for the system field | optional |
+| `04-submission-documents/coi-statement.md` | Conflict-of-interest statement | if asked |
+| `04-submission-documents/data-availability-statement.md` | Data availability, with the DOI procedure | if asked |
+| `04-submission-documents/data-reporting-checklist.md` | Pre-filled data reporting answers | **yes**, if the journal has a form |
+| `04-submission-documents/submission-checklist-final.md` | Internal readiness checklist | **no** |
+| `04-submission-documents/author-only-actions.md` | The items only the authors can close | **no** |
+| `04-submission-documents/toc-graphic.md` | TOC graphic specification and render record | **no** |
+| `05-latex-source/batt-main.tex` | Manuscript LaTeX source | with the source archive |
+| `05-latex-source/references.bib` | The 46 cited references | with the source archive |
+| `05-latex-source/figure-mechanism.pdf` | Figure 1 as the `.tex` includes it | with the source archive |
+| `05-latex-source/WileyNJDv5.cls` | Wiley NJD v5 class (patched) | with the source archive |
+| `05-latex-source/wileyNJD-AMA.bst` | AMA reference style | with the source archive |
+| `05-latex-source/NJDnatbib.sty` | Citation package the class loads | with the source archive |
+| `05-latex-source/NJDapacite.sty` | Citation package the class loads | with the source archive |
+| `05-latex-source/LETTERSP.STY` | Wiley small-caps package; **not in TeX Live**, uppercase on disk | with the source archive |
+| `05-latex-source/rhlogo.jpg` | Journal logo the class places in the running head | with the source archive |
+| `05-latex-source/empty.eps` | Placeholder graphic shipped with the Wiley template; **not referenced by this manuscript**, kept because the verified build was made with it present | with the source archive |
+| `05-latex-source/empty.pdf` | Same, PDF form | with the source archive |
+| `05-latex-source/README-BUILD.md` | How to compile the source, three passes | with the source archive |
+
+---
+
 ## Verified numbers (recomputed, not asserted)
 
 | Quantity | Value | Checked by |
@@ -51,6 +91,13 @@ Both deliverables were rebuilt from this package alone and compared against the 
 - **SI.** `02-supporting-information/supporting-information.tex` is self-contained (no figures, no bibliography) and builds with `pdflatex × 2` to 47 pages.
 
 `05-latex-source/LETTERSP.STY` is required by `WileyNJDv5.cls`; TeX Live does not ship it. It must stay in the archive.
+
+Both shipped PDFs carry embedded document metadata (/Title, /Author, /Subject,
+/Keywords) set through `\hypersetup`. An earlier build had all four empty, which
+makes the file hard to identify in a reference manager and is exactly the kind of
+defect a copy-editor notices. The metadata is set in the generator
+(`_assemble.py`) and in the SI preamble (`build_si_tex.py`), not by post-editing
+the PDF, so a rebuild reproduces it.
 
 ---
 
