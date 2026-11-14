@@ -79,7 +79,7 @@ archive and finds a file they did not expect — especially `empty.eps` or
 | References | **46**, cited 1..46 contiguous, no sub-parts | `_layoutcheck.py` (EXPECTED_REFS = 46) |
 | Manuscript pages | **7** | PDF |
 | SI | **47 pages / 40 tables / 38 equation environments / 26,465 source words** | `build_si_tex.py` |
-| Prose / abstract / legends split | 3,146 + 196 + 157; 78 back-matter words excluded | `check_checklist.py` row 3.1 |
+| Prose / abstract / legends split | 3,146 + 196 + 157; 102 back-matter words excluded | `check_checklist.py` row 3.1 |
 
 ---
 

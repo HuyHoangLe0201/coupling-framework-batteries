@@ -34,7 +34,7 @@ pdflatex -interaction=nonstopmode batt-main.tex
 pdflatex -interaction=nonstopmode batt-main.tex
 python _layoutcheck.py            # fails the build on layout/metadata defects
 python _layoutcheck_selftest.py   # proves the guard still catches its defects
-python _verify_pdf.py             # element/wording checks, 42 refs
+python _verify_pdf.py             # element/wording checks, 46 refs
 ```
 
 **After any prose edit, verify the PDF itself, not just the source.** Extract the text and
@@ -45,13 +45,13 @@ rendered document reflects the source.
 
 | Component | Words | Note |
 |---|---|---|
-| Abstract | **185** | journal cap 200 |
-| Body prose §1–§8 | **3,125** | plan 2,420 — see §3 |
-| Display-item legends (Table 1 + Table 2 + the single Figure 1) | **170** | one legend for a four-panel mechanism figure, plus the two table captions. The 45-w internal allocation is **not a journal rule** — the Notice caps the article in its entirety. |
-| **COUNTED TOTAL** | **3,480** | **ceiling 3,500 — 20 words of slack** |
-| References | 42 entries | **excluded from the count** |
+| Abstract | **196** | journal cap 200 |
+| Body prose §1–§8 | **3,146** | plan 2,420 — see §3 |
+| Display-item legends (Table 1 + Table 2 + the single Figure 1) | **157** | one legend for a four-panel mechanism figure, plus the two table captions. The 45-w internal allocation is **not a journal rule** — the Notice caps the article in its entirety. |
+| **COUNTED TOTAL** | **3,499** | **ceiling 3,500 — 1 word of slack** |
+| References | 46 entries | **excluded from the count** |
 
-**The manuscript is at 3,480 words against a 3,500 ceiling, so the escape hatch
+**The manuscript is at 3,499 words against a 3,500 ceiling, so the escape hatch
 in the cover letter is NOT invoked and must be removed from it.** The submission is
 inside the stated Perspective limit on the corrected counting rule. **The remaining
 slack is 20 words**, so any late integration edit must be matched by an equal cut —

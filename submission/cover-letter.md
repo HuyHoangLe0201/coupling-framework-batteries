@@ -1,7 +1,7 @@
 # Cover Letter — *Batteries & Supercaps* Perspective
 
 **Status:** DRAFT — requires author completion and verification before sending. `[TO BE FILLED BY AUTHORS]` marks fields that cannot be invented.
-**Length:** **539 words of letter prose** plus a **98-word reviewer paragraph** — **666 words in total** if the reviewer paragraph is counted, which is normal for a cover letter with six suggestions. The layout follows the JESTCH template (Arial 12 pt, Letter, 1-inch margins); the letter runs to two pages because the reviewer paragraph and the repository URL together exceed what the template's five-paragraph sample carries. Counted by whitespace tokenisation on 2026-11-04, after the novelty-precision sentence and the reviewer-flexibility sentence were added.
+**Length:** **404 words of letter prose** plus a **220-word reviewer block** (two paragraphs: the six suggestions, then the Howey co-authorship disclosure) — **624 words before the sign-off**, which is normal for a cover letter with six suggestions. Measured on `cover-letter.docx`, the file that is actually sent, and cross-checked against this markdown source; the 31-word sign-off block is excluded from both figures. The layout follows the JESTCH template (Arial 12 pt, Letter, 1-inch margins); the letter runs to two pages because the reviewer paragraph and the repository URL together exceed what the template's five-paragraph sample carries. Counted by whitespace tokenisation on 2026-11-04, after the novelty-precision sentence and the reviewer-flexibility sentence were added.
 **Prepared:** 2026-11-04 · **Owner:** `submission-packager`
 
 ---
@@ -10,7 +10,7 @@
 
 Per the Notice to Authors (09/26), a cover letter must: **outline the relevance and importance of the work succinctly**; **suggest impartial reviewers**; **note any opposed reviewers or conflicts of interest**; **disclose related papers elsewhere and any preprint**. The letter below covers all four.
 
-**The length escape hatch is NOT used.** The Notice offers one — *"submitted manuscripts can be any length, and it is critical that the scientific contents should justify the length"* — but the manuscript is **3,404 counted words against a 3,500 ceiling**, so the condition cannot arise. The paragraph was **deleted** from this package; §4 records why it must not be reinstated.
+**The length escape hatch is NOT used.** The Notice offers one — *"submitted manuscripts can be any length, and it is critical that the scientific contents should justify the length"* — but the manuscript is **3,499 counted words against a 3,500 ceiling**, so the condition cannot arise. The paragraph was **deleted** from this package; §4 records why it must not be reinstated.
 
 ---
 
@@ -123,7 +123,7 @@ foreach ($d in @("10.1002/batt.202000160","10.1021/jacs.0c06363",
 
 > **⚠️ THIS PARAGRAPH WAS DELETED FROM THE LETTER AND MUST STAY DELETED.**
 >
-> An earlier version of this file carried a conditional paragraph invoking the journal's sentence *"submitted manuscripts can be any length…"*. It was **removed on 2026-11-04** because the condition cannot arise: the manuscript is **3,404 counted words against a 3,500 ceiling**.
+> An earlier version of this file carried a conditional paragraph invoking the journal's sentence *"submitted manuscripts can be any length…"*. It was **removed on 2026-11-04** because the condition cannot arise: the manuscript is **3,499 counted words against a 3,500 ceiling**.
 >
 > | Component | Words | Counted? |
 > |---|---|---|
